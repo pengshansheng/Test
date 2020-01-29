@@ -1,0 +1,26 @@
+[
+  {
+    "description": "一个带heaader请求头信息的post请求",
+    "request": {
+      "uri": "/post/header",
+      "method": "post",
+      "headers": {
+        "content-type": "application/json"
+      },
+      "json": {
+        "name": "aaa",
+        "age": "18"
+      }
+    },
+    "response": {
+      "status": 200,
+      "json": {
+        "date": "headerq请求接收到了！！！",
+        "status": "1"
+      },
+      "headers":{
+        "Content-Type":"text/html;charset=gbk"
+      }
+    }
+  }
+]

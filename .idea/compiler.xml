@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="Chapter1" />
+        <module name="Chapter12" />
+        <module name="Chapter13" />
+        <module name="Chapter2" />
+        <module name="httpClient" />
+        <module name="Mybatis" />
+        <module name="SpringMavenDemo" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="Chapter1" target="1.8" />
+      <module name="Chapter12" target="1.8" />
+      <module name="Chapter13" target="1.8" />
+      <module name="Chapter2" target="1.8" />
+      <module name="httpClient" target="1.8" />
+      <module name="maven" target="1.5" />
+      <module name="Mybatis" target="1.8" />
+      <module name="MybatisDemo2" target="1.6" />
+      <module name="PssCeshi" target="1.8" />
+      <module name="spring" target="1.8" />
+      <module name="SpringMavenDemo" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="Chapter1" options="-parameters" />
+      <module name="Chapter12" options="-extdirs E:\GitWork\.ssh\workspace\muke\Test\Chapter12/lib" />
+      <module name="Chapter2" options="-parameters" />
+      <module name="Mybatis" options="-parameters" />
+      <module name="MybatisDemo2" options="-parameters" />
+      <module name="SpringMavenDemo" options="-parameters" />
+      <module name="httpClient" options="-parameters" />
+      <module name="spring" options="-parameters" />
+    </option>
+  </component>
+</project>

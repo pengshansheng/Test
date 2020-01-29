@@ -1,0 +1,29 @@
+[
+  {
+    "description": "重定向",
+    "request": {
+      "uri": "/get/baidu"
+    },
+    "redirectTo": "http://www.baidu.com"
+  },
+  {
+    "description": "重定向第1个页面",
+    "request": {
+      "uri": "/get/redirect"
+    },
+    "redirectTo": "/get/redirectTow"
+  },
+  {
+    "description": "被重定向的第二个页面",
+    "request": {
+      "uri": "/get/redirectTow"
+    },
+    "response": {
+      "text": "被重定向的第二个页面1------成功！",
+      "headers":{
+        "Content-Type":"text/html;charset=gbk"
+      }
+    }
+
+  }
+]

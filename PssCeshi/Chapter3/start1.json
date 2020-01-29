@@ -1,0 +1,44 @@
+[
+  {
+    "description": "这是我们的第一个mock例子",
+    "request": {
+      "uri": "/demo"
+    },
+    "response": {
+      "text": "第一个moco框架的demo",
+      "headers":{
+        "Content-Type":"text/html;charset=gbk"
+      }
+    }
+  },
+  {
+    "description": "模拟一个没有参数的get请求",
+    "request": {
+      "uri": "/getdemo",
+      "method": "get"
+    },
+    "response": {
+      "text": "返回没有参数的get请求的响应数据",
+      "headers":{
+        "Content-Type":"text/html;charset=gbk"
+      }
+    }
+  },
+  {
+    "description": "带参数的get请求",
+    "request": {
+      "uri": "/getParam",
+      "method": "get",
+      "queries": {
+        "name": "name",
+        "age": "18"
+      }
+    },
+    "response": {
+      "text": "niu牛皮，带参数接口返回成功",
+      "headers":{
+        "Content-Type":"text/html;charset=gbk"
+      }
+    }
+  }
+]

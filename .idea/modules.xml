@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/PssCeshi/Chapter1/Chapter1.iml" filepath="$PROJECT_DIR$/PssCeshi/Chapter1/Chapter1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Chapter12/Chapter12.iml" filepath="$PROJECT_DIR$/Chapter12/Chapter12.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Chapter13/Chapter13.iml" filepath="$PROJECT_DIR$/Chapter13/Chapter13.iml" />
+      <module fileurl="file://$PROJECT_DIR$/PssCeshi/Chapter2/Chapter2.iml" filepath="$PROJECT_DIR$/PssCeshi/Chapter2/Chapter2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/PssCeshi/Mybatis/Mybatis.iml" filepath="$PROJECT_DIR$/PssCeshi/Mybatis/Mybatis.iml" />
+      <module fileurl="file://$PROJECT_DIR$/PssCeshi/PssCeshi.iml" filepath="$PROJECT_DIR$/PssCeshi/PssCeshi.iml" />
+      <module fileurl="file://$PROJECT_DIR$/PssCeshi/SpringMavenDemo/SpringMavenDemo.iml" filepath="$PROJECT_DIR$/PssCeshi/SpringMavenDemo/SpringMavenDemo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/Test.iml" filepath="$PROJECT_DIR$/.idea/Test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/PssCeshi/httpClient/httpClient.iml" filepath="$PROJECT_DIR$/PssCeshi/httpClient/httpClient.iml" />
+    </modules>
+  </component>
+</project>

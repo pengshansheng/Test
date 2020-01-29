@@ -1,0 +1,32 @@
+[
+  {
+    "description": "模拟post请求",
+    "request": {
+      "uri": "/postDemo",
+      "method": "post"
+    },
+    "response": {
+      "text": "zhes这是第一个mock的post请求",
+      "headers":{
+        "Content-Type":"text/html;charset=gbk"
+      }
+    }
+  },
+  {
+    "description": "这是带参数的post请求，注意请求方式为forms",
+    "request": {
+      "uri": "/postParam",
+      "method": "post",
+      "forms": {
+        "name": "aaa",
+        "sex": "man"
+      }
+    },
+    "response": {
+      "text": "成功！",
+      "headers":{
+        "Content-Type":"text/html;charset=gbk"
+      }
+    }
+  }
+]

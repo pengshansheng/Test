@@ -1,0 +1,4 @@
+//cd到当前路径下运行命令
+java -jar ./moco-runner-0.11.0-standalone.jar http -p 8888 -c start1.json
+//Test项目下指定路径运行
+java -jar Chapter12/src/main/resources/moco-runner-0.11.0-standalone.jar http -p 8888 -c Chapter12/src/main/resources/start1.json
