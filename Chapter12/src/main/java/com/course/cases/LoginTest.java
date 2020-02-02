@@ -39,7 +39,7 @@ public class LoginTest {
 
         SqlSession session = DatabaseUtil.getSqlSession();
         LoginCase loginCase = session.selectOne("loginCase",1);
-        System.out.println("登录成功接口");
+        System.out.println("-登录成功接口");
         System.out.println(loginCase.toString());
         System.out.println(TestConfig.loginUrl);
 

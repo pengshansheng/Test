@@ -11,11 +11,11 @@
                     <!--<include name="loginFalse"/>-->
                 </methods>
             </class>
-            <class name="com.course.cases.AddUserTest">
-                <methods>
-                    <include name="addUser"/>
-                </methods>
-            </class>
+            <!--<class name="com.course.cases.AddUserTest">
+            <methods>
+                <include name="addUser"/>
+            </methods>
+            </class>-->
             <!--<class name="com.course.cases.GetUserInfoTest">
                 <methods>
                     <include name="getUserInfo"/>
